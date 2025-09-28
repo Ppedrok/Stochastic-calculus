@@ -64,7 +64,7 @@ This repository contains MATLAB functions for pricing European and Asian options
 - Creates surface plot showing option price as function of current stock price (St) and accumulated average (At)
 - Fixed time t = 2T/3 (two-thirds through the option life)
 
-##  Model Parameters
+## Model Parameters
 
 ### Common Parameters
 - **Strike Price (K)**: 10
@@ -98,6 +98,19 @@ Graph_asian();
 % Create Asian option surface at time t
 Surface_asian_t();
 ```
+
+
+### Stochastic Differential Equations (Notebook)
+
+#### `SDEs.ipynb`  
+**Jupyter Notebook with examples of stochastic differential equations (SDEs)**  
+- Introduces simulation of basic SDEs using Euler–Maruyama discretization  
+- Includes examples of:  
+  - Geometric Brownian Motion (GBM)  
+  - Vasicek interest rate model  
+- Serves as a pedagogical complement to the MATLAB functions  
+- Can be run in **Python (Jupyter environment)**, independent of MATLAB code  
+
 
 
 
