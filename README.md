@@ -80,25 +80,6 @@ This repository contains MATLAB functions for pricing European and Asian options
 - **Interest rate volatility (σᵣ)**: 0.02
 - **Correlation (ρ)**: -0.3
 
-##  Usage Examples
-
-```matlab
-% Price European call with stochastic rates
-price = price_stoch_option(10, 0.05);
-
-% Create 3D surface plot for stochastic rate option
-Graph_stoch_option();
-
-% Price Asian call option
-asian_price = Price_asian(10);
-
-% Compare Asian vs European pricing
-Graph_asian();
-
-% Create Asian option surface at time t
-Surface_asian_t();
-```
-
 
 ### Stochastic Differential Equations (Notebook)
 
